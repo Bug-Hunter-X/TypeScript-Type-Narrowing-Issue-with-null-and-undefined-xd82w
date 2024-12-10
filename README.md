@@ -1,0 +1,3 @@
+# TypeScript Type Narrowing Issue with null and undefined
+
+This example demonstrates a common issue encountered when working with TypeScript's type narrowing and handling null and undefined values. The `greet` function expects a string or null value, but throws an error when called with undefined. This is because TypeScript does not automatically narrow undefined as it is not included in the string | null type.
